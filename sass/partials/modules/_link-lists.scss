@@ -1,0 +1,20 @@
+.link-list-item {
+    font-family: $font-titles;
+    list-style: none;
+    border-bottom: 1px solid rgba(107, 59, 37, .3);
+    padding: 5px 0;
+
+    & a {
+        text-decoration: none;
+    }
+}
+
+.link-list-item .title {
+    display: block;
+}
+
+.link-list-item .info {
+    display: block;
+    font-size: 14px;
+    color: $theme-orange;
+}

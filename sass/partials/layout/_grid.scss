@@ -1,0 +1,10 @@
+.col3-2 {
+  width: calc(2 * (100% / 3));
+  float: left;
+}
+
+.col3-1 {
+  width: calc((100% / 3) - 20px);
+  float: left;
+  margin-right: 20px;
+}

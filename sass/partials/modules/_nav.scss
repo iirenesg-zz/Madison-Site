@@ -1,0 +1,41 @@
+.main-nav {
+    background-color: $theme-orange;
+    margin-bottom: 45px;
+    padding: 25px 0;
+
+    li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 28px;
+    }
+
+    a {
+        font: 16px $font-titles;
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 25px 15px;
+    }
+
+    a:hover {
+        background-color: $theme-darkbrown;
+    }
+}
+
+.main-subnav {
+    font: inherit;
+    color: inherit;
+    background-color: $theme-darkbrown;
+    position: absolute;
+    display: none;
+
+    li {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid rgba(255, 255, 255, .5);
+    }
+
+    li:last-child {
+        border: none;
+    }
+}

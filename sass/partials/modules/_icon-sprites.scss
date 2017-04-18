@@ -1,0 +1,22 @@
+.sprite {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    background-image: url("../img/icons/rss-spritesheet.png");
+}
+
+.icon-as {
+    background-position: 0 0;
+}
+
+.icon-tumblr {
+    background-position: -42px 0;
+}
+
+.icon-twitter {
+    background-position: -84px 0;
+}
+
+.icon-dribble {
+    background-position: -126px 0;
+}
